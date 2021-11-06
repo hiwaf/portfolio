@@ -16,3 +16,7 @@ desktop.ini
 
 # NPM
 themes/node_modules/
+
+.vs
+
+.idea
