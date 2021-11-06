@@ -3,8 +3,8 @@ Title: Home
 Description: This is our index page.
 ---
 
-# Home page
-![Image Title](image/profile.jpg)
+# Hiwa Farahnoosh - Portfolio
+![Image Title](image/me.png)
 
 Hej,
 
