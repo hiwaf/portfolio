@@ -1,0 +1,34 @@
+{% include 'incl/header.twig' %}
+
+<body>
+	<div class="container">
+		{% include 'incl/nav.twig' %}
+
+		<div class="main" role="main">
+
+
+			<div class="parent">
+				{% for page in pages(current_page.id) if not page.hidden %}
+					<div id="card{{ loop.index }}" class="card">
+						<div class="card-title">
+							<h2>
+								{{ page.title }}
+							</h2>
+						</div>
+						<div class="card-content">
+							<p>
+								Kmom{{ loop.index }}
+								was really fun
+							</p>
+						</div>
+						<div class="card-footer">
+							<a href="{{ page.url }}">Read More</a>
+						</div>
+
+					</div>
+				{% endfor %}
+			</div>
+
+		</div>
+		{% include 'incl/footer.twig' %}</body>
+</body></div></body></html>

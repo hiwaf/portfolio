@@ -6,10 +6,11 @@
 	<div class="single-parent">
 		<div class="side-menu">
 			<ul>
-				<li>Side menu</li>
-				<li>Side menu</li>
-				<li>Side menu</li>
-				<li>Side menu</li>
+				{% for page in pages("technology") if not page.hidden %}
+					<li>
+						<a href="{{ page.url }}">{{ page.title }}</a>
+					</li>
+				{% endfor %}
 			</ul>
 		</div>
 		<div>

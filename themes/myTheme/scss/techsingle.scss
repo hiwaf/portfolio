@@ -5,8 +5,21 @@
     grid-template-columns: 0.5fr 1.5fr;
     gap: 20px 0px;
     max-width: 90%;
+    margin-bottom: 50px;
 }
 
 .side-menu {
     margin-left: 20px;
+}
+
+//responsive .side-menu
+@media screen and (max-width: 600px) {
+    .single-parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        margin-left: 20px;
+    }
+    .side-menu {
+        display: none;
+    }
 }

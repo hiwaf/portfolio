@@ -1,5 +1,7 @@
 @use '../../node_modules/normalize.css/normalize.css';
 @use 'colors';
+@use 'tech';
+@use 'techsingle';
 
 @font-face {
     font-family: 'Roboto', sans-serif;
@@ -92,7 +94,7 @@ body {
     .navcontent {
         display: none;
     }
-    
+
     .header .site-header {
         margin: 0;
         margin-left: 20px;
