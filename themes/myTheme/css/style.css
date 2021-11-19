@@ -388,31 +388,31 @@ template {
   padding: 4px;
 }
 
-#card1 {
+.card1 {
   grid-area: 1/1/2/2;
 }
 
-#card2 {
+.card2 {
   grid-area: 1/2/2/3;
 }
 
-#card3 {
+.card3 {
   grid-area: 1/3/2/4;
 }
 
-#card4 {
+.card4 {
   grid-area: 2/1/3/2;
 }
 
-#card5 {
+.card5 {
   grid-area: 2/2/3/3;
 }
 
-#card6 {
+.card6 {
   grid-area: 2/3/3/4;
 }
 
-#card7 {
+.card7 {
   grid-area: 3/1/4/4;
 }
 
@@ -422,31 +422,31 @@ template {
     grid-template-rows: repeat(7, 1fr);
   }
 
-  #card1 {
+  .card1 {
     grid-area: 1/1/1/1;
   }
 
-  #card2 {
+  .card2 {
     grid-area: 2/1/2/1;
   }
 
-  #card3 {
+  .card3 {
     grid-area: 3/1/3/1;
   }
 
-  #card4 {
+  .card4 {
     grid-area: 4/1/4/1;
   }
 
-  #card5 {
+  .card5 {
     grid-area: 5/1/5/1;
   }
 
-  #card6 {
+  .card6 {
     grid-area: 6/1/6/1;
   }
 
-  #card7 {
+  .card7 {
     grid-area: 7/1/7/1;
   }
 }
@@ -455,7 +455,7 @@ template {
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   grid-template-columns: 0.5fr 1.5fr;
-  gap: 20px 0px;
+  gap: 20px 0;
   max-width: 90%;
   margin-bottom: 50px;
 }
@@ -464,7 +464,7 @@ template {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .single-parent {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, 1fr);

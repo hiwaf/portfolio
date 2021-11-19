@@ -9,7 +9,7 @@
 
 			<div class="parent">
 				{% for page in pages(current_page.id) if not page.hidden %}
-					<div id="card{{ loop.index }}" class="card">
+					<div class="card card{{ loop.index }}">
 						<div class="card-title">
 							<h2>
 								{{ page.title }}
