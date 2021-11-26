@@ -10,6 +10,8 @@
 
 body {
     background-color: colors.$background-color;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 * {
@@ -102,7 +104,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: colors.$secondary-color;
 }
 
 .title p {
@@ -118,15 +120,20 @@ body {
     margin-right: 25px;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px solid colors.$border-color;
 }
 
 .footer a {
-    color: #222;
+    color: colors.$footer-a-color;
 }
 
 .footer .social {
     font-size: 2rem;
+}
+
+/* FontAwesome */
+.fa {
+color: colors.$secondary-color;
 }
 
 /* Typografy */
@@ -134,7 +141,7 @@ body {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.7rem;
-    color: #444;
+    color: colors.$primary-color;
 }
 
 p,
@@ -153,6 +160,7 @@ h3,
 h4,
 h5,
 h6 {
+    color: colors.$primary-color;
     margin-bottom: 0.6em;
     font-weight: bold;
 }
@@ -162,7 +170,6 @@ img {
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
-
 /* Code */
 
 code {
@@ -193,39 +200,6 @@ pre code {
     line-height: 1.4;
 }
 
-/* Blockquote */
-
-blockquote {
-    font-style: italic;
-    margin-left: 1em;
-    padding-left: 1em;
-    border-left: 0.5em solid #f5f5f5;
-}
-
-.slide {
-    overflow-y: hidden !important;
-    transition: height 0.5s ease-in !important;
-}
-
-.nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
-    list-style: none;
-}
-
-.nav ul li {
-    padding: 0 1em;
-}
-
-.nav a,
-.nav-toggle {
-    color: #333;
-}
-
-.nav-toggle {
-    display: none;
-}
 
 @media (max-width: 767px) {
     .header {

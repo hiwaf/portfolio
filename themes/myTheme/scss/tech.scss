@@ -1,3 +1,4 @@
+@use 'colors';
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -25,9 +26,13 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        background-color: #d3d3d3;
+        background-color: colors.$secondary-color;
         width: 100%;
         padding-top: 14px;
+
+        h2 {
+            color: colors.$background-color;
+        }
     }
 
     .card-content {
@@ -37,9 +42,8 @@
         align-items: center;
         width: 100%;
         padding: 4px;
-        
     }
-    
+
     .card-footer {
         font-weight: bold;
         text-align: center;
@@ -113,5 +117,4 @@
     .card7 {
         grid-area: 7 / 1 / 7 / 1;
     }
-
 }

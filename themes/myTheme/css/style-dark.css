@@ -484,9 +484,7 @@ template {
   src: url("/portfolio/assets/Roboto/Roboto-Medium.ttf") format("truetype");
 }
 body {
-  background-color: #f9f9fb;
-  max-width: 1600px;
-  margin: 0 auto;
+  background-color: #06062e;
 }
 
 * {
@@ -576,7 +574,7 @@ body {
   }
 }
 .title * {
-  color: #676798;
+  color: #f5efef;
 }
 
 .title p {
@@ -591,27 +589,22 @@ body {
   margin-right: 25px;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #2e0303;
 }
 
 .footer a {
-  color: #222;
+  color: #f0eaea;
 }
 
 .footer .social {
   font-size: 2rem;
 }
 
-/* FontAwesome */
-.fa {
-  color: #676798;
-}
-
 /* Typografy */
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.7rem;
-  color: #54547A;
+  color: #d1c2c2;
 }
 
 p,
@@ -630,7 +623,6 @@ h3,
 h4,
 h5,
 h6 {
-  color: #54547A;
   margin-bottom: 0.6em;
   font-weight: bold;
 }
@@ -639,7 +631,6 @@ img {
   max-width: 100%;
 }
 
-/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 /* Code */
 code {
   margin: 0 0.1em;

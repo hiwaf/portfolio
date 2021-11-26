@@ -11,4 +11,10 @@ Social:
     - title: Course Website.
       url: https://dbwebb.se/
       icon: home
+    - title: Dark Mode
+      url: ?action=theme
+      icon: youtube
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: youtube
 ---
