@@ -545,6 +545,11 @@ body {
   float: left;
 }
 
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Title */
 .title,
 .logo {
@@ -576,7 +581,7 @@ body {
   }
 }
 .title * {
-  color: #676798;
+  color: #54547A;
 }
 
 .title p {
@@ -688,6 +693,8 @@ pre code {
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
+    color: inherit;
+    text-decoration: none;
   }
 
   .js .nav-toggle {
