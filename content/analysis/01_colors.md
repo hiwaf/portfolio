@@ -60,7 +60,7 @@ trycka på Ctrl-Shift + I sen Ctrl-Shift + P och söka på screenshot <br><br>
 ### Estetica Ochoa
 
 <a data-fancybox="single" href="../image/color/esteticaochoa_full.png">
-<img style="max-width: 500px;" src="../image/color/esteticaochoa_full.png" />
+<img src="../image/color/esteticaochoa_full.png" />
 </a> <br>
 
 Estetica Ochoa använder sig utav en väldig simpel färgpalett vilket gör det
@@ -91,7 +91,7 @@ slutligen använder texten på hemsidan
 <br>
 
 <a class="color-image" data-fancybox="single" href="../image/color/color-wheel_ochoa.png">
-<img style="max-width: 500px;" src="../image/color/color-wheel_ochoa.png" />
+<img src="../image/color/color-wheel_ochoa.png" />
 </a> <br>
 Typsnittet hemsidan använder sig utav är exklusivt bronkoh med färgen #4b4e52.
 Typsnittet ger en vänlig och mjuk känsla till användaren. Med mjuka kurvor och
@@ -137,7 +137,7 @@ h3 {
 # **Centros Ideal**
 
 <a data-fancybox="single" href="../image/color/ideal_full.jpg">
-<img style="max-width: 500px;" src="../image/color/ideal_full.jpg" />
+<img src="../image/color/ideal_full.jpg" />
 </a> <br>
 
 Centros Ideal använder sig utav utav en lila färg som sin huvudfärg men det är
@@ -161,7 +161,7 @@ tillsammans med mycket vitt och inslag av olika nyanser av
 <br><br>
 
 <a class="color-image" data-fancybox="single" href="../image/color/color-wheel_ideal.png">
-<img style="max-width: 500px;" src="../image/color/color-wheel_ideal.png" />
+<img src="../image/color/color-wheel_ideal.png" />
 </a> <br>
 
 Typsnittet sidan använder sig av är Raleway med olika font färger men oftast en
@@ -207,7 +207,7 @@ h3 {
 ### Centro Unico
 
 <a data-fancybox="single" href="../image/color/unico_full.png">
-<img style="max-width: 500px;" src="../image/color/unico_full.png" />
+<img src="../image/color/unico_full.png" />
 </a> <br>
 
 Använder sig sparsamt av sin huvudfärg
@@ -233,7 +233,7 @@ använder sig av olika nyanser av svart på ett väldigt slumpmässigt sätt.
 <br>
 
 <a class="color-image" data-fancybox="single" href="../image/color/color-wheel_unico.png">
-<img style="max-width: 500px;" src="../image/color/color-wheel_unico.png" />
+<img src="../image/color/color-wheel_unico.png" />
 </a> <br>
 
 Typsnittet dom använder sig av är Gotham, ett typsnitt som används utav flera
