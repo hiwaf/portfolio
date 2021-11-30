@@ -342,6 +342,10 @@ template {
   font-family: bronkoh;
   src: url(../../../content/analysis/fonts/Bronkoh.woff2) format("woff2");
 }
+@font-face {
+  font-family: gotham;
+  src: url(../../../content/analysis/fonts/GothamMedium_1.ttf) format("truetype");
+}
 .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
