@@ -1,3 +1,9 @@
+---
+Title: Colors
+template: technologies-single
+description: Design Kmom04 - Utvärdera webbplatsers färgval och känsla
+---
+
 # Design Kmom04: Utvärdera webbplatsers färgval och känsla
 
 Färger kan påverka hur en användare upplever en hemsida och kan väcka olika
