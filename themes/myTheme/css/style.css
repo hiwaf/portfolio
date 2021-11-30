@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -337,6 +338,10 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: bronkoh;
+  src: url(../../../content/analysis/fonts/Bronkoh.woff2) format("woff2");
+}
 .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
