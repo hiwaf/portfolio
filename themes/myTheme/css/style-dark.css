@@ -340,11 +340,11 @@ template {
 
 @font-face {
   font-family: bronkoh;
-  src: url(../../../content/analysis/fonts/Bronkoh.woff2) format("woff2");
+  src: url("../../../content/analysis/fonts/Bronkoh.woff2") format("woff2");
 }
 @font-face {
   font-family: gotham;
-  src: url(../../../content/analysis/fonts/GothamMedium_1.ttf) format("truetype");
+  src: url("../../../content/analysis/fonts/GothamMedium_1.ttf") format("truetype");
 }
 .parent {
   display: grid;
@@ -377,7 +377,7 @@ template {
   width: 100%;
   padding-top: 14px;
 }
-.card .card-title h2 {
+.card h2 {
   color: #f9f9fb;
 }
 .card .card-content {
@@ -609,7 +609,7 @@ body {
 }
 
 .footer a {
-  color: #ffffff;
+  color: #fff;
 }
 
 .footer .social {
