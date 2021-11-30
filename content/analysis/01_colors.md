@@ -1,6 +1,6 @@
 ---
 Title: Colors
-template: technologies-single
+template: articles
 description: Design Kmom04 - Utvärdera webbplatsers färgval och känsla
 ---
 
@@ -35,6 +35,9 @@ Jag gick igenom alla sidor och plockade ut huvudfärgerna och typografival.
 Resultatet sammanställde jag i en HTML sida. För att få ut den exakta färgen
 hemsidorna använde så användes Chrome tillägget ColorZilla men ibland plockades
 färgerna ut direkt ur HTML koden via Chrome developer tools.
+
+Ni kan se hemsidan här
+[här](https://www.student.bth.se/~hifa21/dbwebb-kurser/design/me/kmom04/)
 
 Typsnitten hemsidorna använder fick jag genom HTML koden och kunde ladda hem
 fontfilen via Chrome Developer tools genom Network tools och filtrera ut enbart
@@ -323,5 +326,14 @@ huvudsakligen handlar det om att vara konsekvent i sitt användande av färger o
 typsnitt och se över sin användartillgänglighet i form av bättre
 kontrastförhållanden och eventuellt se över font val så några av dom inte höll
 bästa praxis när det kommer till lättläslighet som tex qp och Il1 test.
+
+Det var tydligt att alla använde sig av många vita färger för att förstärka
+budskapet om provinsialism och vetenskaplighet. Ochoa var utan tvekan bäst när
+det kom till att vara konsekvent i sina färgval och sämst var Centro Ideal.
+<br><br>
+
+## Övrigt
+
+Skriven av: Hiwa Farahnoosh
 
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>

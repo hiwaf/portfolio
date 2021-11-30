@@ -1,0 +1,22 @@
+{% include 'incl/header.twig' %}
+
+<body>
+	{% include 'incl/nav.twig' %}
+
+	<div class="single-parent">
+		<div class="side-menu">
+			<ul>
+				{% for page in pages("analysis") if not page.hidden %}
+					<li>
+						<a href="{{ page.url }}">{{ page.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div>
+			{{ content }}
+		</div>
+	</div>
+
+	{% include 'incl/footer.twig' %}
+</body></html>
